@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#hero {
+  background: #1f2937;
+}
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+header,
+footer {
+  background: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+  padding: 40px;
+}
+header .section-wrapper {
+  display: flex;
+  align-items: center;
+}
+nav {
+  display: flex;
+  gap: 40px;
+  margin-left: auto;
+}
+nav a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+}
+
+button {
+  background-color: #3882f6;
+  padding: 10px 40px;
+  font-size: 18px;
+  color: #e5e7eb;
+  border: 0;
+  border-radius: 10px;
+  font-weight: bold;
+}
+button:hover {
+  border-color: #f9faf8;
+  color: #f9faf8;
+  cursor: pointer;
+}
+
+.section-wrapper {
+  width: 80%;
+}
+#hero {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+#hero .section-wrapper {
+  display: flex;
+  align-items: center;
+  margin: 50px;
+  gap: 10%;
+}
+#hero .left {
+  width: 50%;
+}
+#hero img {
+  width: 50%;
+  height: 250px;
+}
+#hero h1 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+#hero button {
+  margin-top: 10px;
+}
+
+#information h2 {
+  width: 100%;
+  text-align: center;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  margin: 50px;
+}
+
+#information .information-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 80px;
+}
+.information-item {
+  width: 200px;
+  text-align: center;
+}
+.information-item img {
+  width: 200px;
+  height: 200px;
+  border: 4px solid #3882f6;
+  border-radius: 10%;
+}
+#quote {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+}
+#quote .section-wrapper {
+  margin: 100px;
+  flex: 0 1 900px;
+}
+.quote-author {
+  text-align: right;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: 24px;
+}
+#signup .section-wrapper {
+  background-color: #3882f6;
+  padding: 48px;
+  border-radius: 24px;
+  display: flex;
+  color: #e5e7eb;
+  width: 70%;
+}
+#signup .left {
+  flex-basis: 70%;
+  /* min-width: 70; */
+}
+#signup .right {
+  align-self: center;
+  flex: 1 0 auto;
+  text-align: center;
+}
+#signup button {
+  border: 2px solid #e5e7eb;
+}
